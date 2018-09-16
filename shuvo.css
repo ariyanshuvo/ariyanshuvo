@@ -1,0 +1,68 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    font-weight: bold;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+   color: lightgreen;
+   transition: all 0.5s ease-in;
+
+
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+   color: lightgreen;
+   
+
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(3.jpg);
+	 max-height: 1000px; background-attachment: fixed;
+	 max-width: 100%;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+
+}
+.icon{
+	font-size: 40px;
+	background: green;
+	padding: 50px;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	
+
+}
+
+.icon:hover{
+	background: #fff;
+	color: black;
+	cursor:pointer;
+	transition: all 0.5s ease-in;
+	transform: scale(1.05);
+}
+.imageshow img:hover{
+	transform: scale(1.05);
+	transition: all 0.7s ease-in;
+
+}
+.iconbar{
+	float: right;
+	margin-top: 10px;
+	padding: 10px;
+	font-size: 20px;
+	color: #fff;
+	
+
+	
+}
+
+.iconbar:hover{
+	color: orange;
+	transition: all 0.5s ease-in;
+}
